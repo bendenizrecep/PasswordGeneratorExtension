@@ -1,0 +1,134 @@
+body{
+    position: relative;
+    min-width: 550px;
+    background: #1C1C1C;
+}
+#text{
+position: absolute;
+width: 354px;
+height: 80px;
+left: 52px;
+top: 50px;
+font-family: 'karla';
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+letter-spacing: -0.025em;
+/* white */
+
+color: #FFFFFF;
+}
+#backtable{
+position: absolute;
+width: 550px;
+height: 400px;
+;
+
+background: #1F2937;
+border-radius: 5%;
+}
+#text0{
+position: absolute;
+width: 372px;
+height: 28px;
+left: 52px;
+top: 100px;
+padding-top:10px ;
+/* text-xl/leading-7/font-normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+
+/* Medium grey */
+
+color: #10B981;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    border: none;
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 180px;
+    
+    background: #10B981;
+    /* shadow/sm */
+    
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor:pointer;
+    color: white;
+}
+button:hover {background-color: #66ff99}
+
+#line{
+position: absolute;
+width: 446px;
+height: 0px;
+left: 52px;
+top: 250px;
+
+border: 1px solid #2F3E53;
+}
+#firstblock{
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 300px;
+    
+    background: #273549;
+    border-radius: 6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+text-align: center;
+
+color: #55F991;
+}
+#copy-button{
+
+    position: absolute;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 300px;
+    
+}
+input{
+    position: absolute;
+    width: 40px;
+    height: 42px;
+    left: 300px;
+    top: 175px;
+    background-color: #10B981;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+#copied{
+    position: absolute;
+    left: 250px;
+    top: 360px;
+    color: white;
+}
